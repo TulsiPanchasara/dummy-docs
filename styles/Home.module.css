@@ -12,6 +12,16 @@
   align-items: center;
 }
 
+.table{
+  border: 1px solid black;
+  margin: 20px auto;
+}
+
+.label{
+  font-size: 15px;
+  padding-right: 10px;
+}
+
 .footer {
   display: flex;
   flex: 1;
