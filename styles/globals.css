@@ -14,3 +14,58 @@ a {
 * {
   box-sizing: border-box;
 }
+
+button {
+  cursor: pointer;
+  background-color: black;
+  color: white;
+  border-radius: 3px;
+  padding: 3px 5px;
+}
+
+.documentFormFields {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 8px;
+}
+
+label {
+  font-size: 15px;
+  padding-right: 10px;
+}
+
+.anchorButton {
+  cursor: pointer;
+  padding: 3px;
+  border: 1px solid black;
+  border-radius: 3px 5px;
+}
+
+.viewDataValue {
+  display: flex;
+  justify-content: left;
+}
+
+.viewDataField {
+  font-weight: bold;
+}
+
+.viewData {
+  display: grid;
+  max-width: 30%;
+  grid-template-columns: 50% 50%;
+  padding: 3px;
+}
+
+.paginationContainer {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  margin: 8px 10px;
+}
+
+.navPagination {
+  position: relative;
+  z-index: 0;
+  display: flex;
+}
